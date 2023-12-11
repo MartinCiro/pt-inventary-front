@@ -1,7 +1,6 @@
 import { GlobalProvider } from "./context/GlobalState";
 import { Header } from "./components/Header";
 import { Balance } from "./components/Balance";
-import { IncomeExpenses } from "./components/IncomeExpenses";
 import { TransactionList } from "./components/transactions/TransactionList";
 import { TransactionForm } from "./components/transactions/TransactionForm";
 import { ExpenseChart } from "./components/ExpenseChart";
@@ -15,7 +14,6 @@ function App() {
             <Header />
             <div className="flex flex-col md:flex-row justify-between gap-4">
               <div className="flex-1">
-                <IncomeExpenses />
                 <Balance />
                 <TransactionForm />
               </div>
